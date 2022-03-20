@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++11 -Wall -g  -rdynamic CMakeFiles/Kalman.out.dir/src/Algo/Filter.cpp.o CMakeFiles/Kalman.out.dir/src/Input/Input.cpp.o CMakeFiles/Kalman.out.dir/src/Output/Output.cpp.o CMakeFiles/Kalman.out.dir/src/main.cpp.o  -o ../bin/Kalman.out 
+/usr/bin/c++   -std=c++11 -Wall -DGEN_OUTPUT_CSV -g  -rdynamic CMakeFiles/Kalman.out.dir/src/Algo/Filter.cpp.o CMakeFiles/Kalman.out.dir/src/Input/Input.cpp.o CMakeFiles/Kalman.out.dir/src/Output/Output.cpp.o CMakeFiles/Kalman.out.dir/src/main.cpp.o  -o ../bin/Kalman.out 

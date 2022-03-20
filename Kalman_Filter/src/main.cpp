@@ -20,7 +20,9 @@ int main(){
 
     }
 
+#ifdef GEN_OUTPUT_CSV  //flag passed in CMakeLists
     writeDataToFile2(inputData,FusionObject);  
     writeDataToFile(inputData,FusionObject); 
+#endif
     return 0;
 }
